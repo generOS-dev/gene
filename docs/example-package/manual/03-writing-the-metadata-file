@@ -1,0 +1,48 @@
+# Writing the `metadata.json` File
+
+You may want to look at the [package format documentation](../../packages/gene-package-format.md) for information on what this file should look like.
+
+Let's open the `metadata.json` file in your favorite text editor:
+```bash
+$EDITOR gene-image/metadata.json
+```
+
+Write the following to this file, replacing some of the names:
+```json
+{
+    "geneVersion": "1.0.0",
+    "name": "hello-world",
+    "version": "1.0.0",
+    "author": "<<< YOUR NAME HERE >>>",
+    "email": "<<< YOUR CONTACT EMAIL HERE >>>",
+    "description": "A simple example of a Gene -- Prints Hello, World! to the screen.",
+    "longDescription": [
+        "Prints the text Hello, World! to the screen.",
+        "",
+        "This Gene is an example from the Gene documentation."
+    ],
+    "dependencies": [],
+    "conflicts": [],
+    "isGPGSigned": false
+}
+```
+
+After we have added the metadata, let's tell Gene what executables this Gene provides...
+
+Edit the `index.json` file with these contents:
+```json
+{
+    "bin": [
+        ["hello-world", "/usr/bin/hello-world"]
+    ],
+    "lib": [],
+    "include": []
+}
+```
+
+We are done with telling Gene about the package. Let's [learn about Hooks][next_page] before we move on to build the Gene.
+
+[Previous page: Preparing the Files][previous_page] -- [Next page: Setting up Hooks][next_page]
+
+[prev_page]: ./02-preparing-the-files.md "Preparing the Files"
+[next_page]: ./04-setting-up-hooks.md "Setting up Hooks"

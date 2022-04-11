@@ -6,4 +6,4 @@ This guide will take you through the steps of manually generating a Gene package
 
 [Next page: Intro to Gene Packaging][next_page]
 
-[next_page]: ./01-intro-to-gene-packaging.html "Intro to Gene Packaging"
+[next_page]: ./00-intro-to-gene-packaging.md "Intro to Gene Packaging"

@@ -58,7 +58,9 @@ Here's an example of the metadata:
         [ "suggests", "baz", "1.0.0" ], // It would be useful if baz 1.0.0 was present.
         [ "enhances", "hello", "3.1.1" ] // A reverse of suggests, this package enhances hello 3.1.1's functions. (probably want to mark it as a dependency as well!)
     ],
-    "conflicts": [ "goodbye" ] // Packages that should NEVER be installed with this package.
+    "conflicts": [ "goodbye" ], // Packages that should NEVER be installed with this package.
+
+    "isGPGSigned": false // Set to true if you sign your images.
 }
 ```
 
@@ -69,7 +71,7 @@ This file should note what files and binaries this package provides (it's all as
 ```json
 {
     "bin": [ // Binaries that are provided by this package.
-        "hello-world"
+        ["hello-world", "/usr/bin/hello-world"]
     ],
     "lib": [], // Libraries, e.g. 'libfoo.so' provided.
     "include": [] // Headers, e.g. 'foo.h' provided.
