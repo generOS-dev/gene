@@ -1,0 +1,16 @@
+{
+    "geneVersion": "1.0.0",
+    "name": "hello-world",
+    "version": "1.0.0",
+    "author": "0xLogN",
+    "email": "nutdriver716@gmail.com",
+    "description": "A simple example of a Gene -- Prints Hello, World! to the screen.",
+    "longDescription": [
+        "Prints the text Hello, World! to the screen.",
+        "",
+        "This Gene is an example from the Gene documentation."
+    ],
+    "dependencies": [["bash", "5"]],
+    "conflicts": [],
+    "isGPGSigned": false
+}

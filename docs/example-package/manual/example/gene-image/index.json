@@ -1,0 +1,7 @@
+{
+    "bin": [
+        ["hello-world", "/usr/bin/hello-world"]
+    ],
+    "lib": [],
+    "include": []
+}
