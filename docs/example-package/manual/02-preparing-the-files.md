@@ -30,4 +30,4 @@ Now the Gene image's contents have been assembled, let's move on to [writing the
 [Previous page: Writing a Hello World Program][prev_page] -- [Next page: Writing the `metadata.json` File][next_page]
 
 [prev_page]: ./01-writing-a-hello-world-program.md "Writing a Hello World Program"
-[next_page]: ./03-writing-the-metadata-file "Writing the metadata.json File"
+[next_page]: ./03-writing-the-metadata-file.md "Writing the metadata.json File"
