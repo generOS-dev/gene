@@ -1,7 +1,7 @@
 # gene
 Gene is the primary generOS package management system.
 
-Check out the [generOS tool naming](./NAMES.md)!
+Check out the [generOS tool naming](https://github.com/generOS-dev/naming)!
 
 ## The Gene Package Format
 
