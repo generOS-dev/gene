@@ -58,7 +58,7 @@ Here's an example of the metadata:
         [ "suggests", "baz", "1.0.0" ], // It would be useful if baz 1.0.0 was present.
         [ "enhances", "hello", "3.1.1" ] // A reverse of suggests, this package enhances hello 3.1.1's functions. (probably want to mark it as a dependency as well!)
     ],
-    "breaks": [ "goodbye" ] // Packages that should NEVER be installed with this package.
+    "conflicts": [ "goodbye" ] // Packages that should NEVER be installed with this package.
 }
 ```
 
