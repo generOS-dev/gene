@@ -45,7 +45,7 @@ You should get the output of `Hello, World!` printed to the screen. If this does
 
 Now we have this hello-world file, let's move on to [preparing the files](./02-preparing-the-files.md).
 
-[Previous page: Intro to Gene Packaging][previous_page] -- [Next page: Preparing the Files][next_page]
+[Previous page: Intro to Gene Packaging][prev_page] -- [Next page: Preparing the Files][next_page]
 
 [prev_page]: ./00-intro-to-gene-packaging.md "Intro to Gene Packaging"
 [next_page]: ./02-preparing-the-files.md "Preparing the Files"

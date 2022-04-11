@@ -20,6 +20,6 @@ gzip hello_world-1.0.0.gene
 
 Now `hello_world-1.0.0.gene.gz` is ready to be distributed to a user or to a Gene Pool!
 
-[Previous page: Setting up Hooks][previous_page] -- *this is where it all ends.* [Return to Introduction](./README.md)
+[Previous page: Setting up Hooks][prev_page] -- *this is where it all ends.* [Return to Introduction](./README.md)
 
 [prev_page]: ./04-setting-up-hooks.md "Setting up Hooks"

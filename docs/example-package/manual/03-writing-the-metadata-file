@@ -42,7 +42,7 @@ Edit the `index.json` file with these contents:
 
 We are done with telling Gene about the package. Let's [learn about Hooks][next_page] before we move on to build the Gene.
 
-[Previous page: Preparing the Files][previous_page] -- [Next page: Setting up Hooks][next_page]
+[Previous page: Preparing the Files][prev_page] -- [Next page: Setting up Hooks][next_page]
 
 [prev_page]: ./02-preparing-the-files.md "Preparing the Files"
 [next_page]: ./04-setting-up-hooks.md "Setting up Hooks"
